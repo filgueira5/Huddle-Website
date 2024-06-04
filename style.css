@@ -153,6 +153,38 @@ nav a {
   max-height: 440px;
 }
 
+.build-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+  width: 800px;
+  padding: 50px;
+  z-index: 1;
+  box-shadow: 2px 2px 2px 2px rgba(0.1, 0.1, 0.1, 0.1);
+  margin-top: 150px;
+  top: 20px;
+}
+
+.build-card h1 {
+  font-size: 32px;
+  margin-bottom: 56px;
+}
+
+.build-card a {
+  text-decoration: none;
+  padding: 32px 86px;
+  border-radius: 40px;
+  background-color: var(--Pink);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
 footer {
   background-color: var(--Very-Dark-Cyan);
   color: white;
